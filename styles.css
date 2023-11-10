@@ -1,0 +1,38 @@
+body {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-card {
+    border: 1px solid rgb(148, 152, 208);
+    background-color: #c6ceef;
+    border-radius: 10px 25px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+}
+
+.character-card:hover {
+    transform: scale(1.1);  
+    background-color: #cc7373; 
+}
+
+
+.character-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #c96363;
+}
+.character-card:hover h2 {
+    color: rgb(206, 5, 62)
+}
+
+.character-card:hover {
+    cursor: pointer;
+}
