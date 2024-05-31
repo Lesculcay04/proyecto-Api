@@ -15,7 +15,7 @@ body {
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease; 
     width: calc(33.33% - 20px); 
-    box-sizing: border-box; 
+     
 }
 
 .character-card:hover {
